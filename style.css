@@ -1,0 +1,176 @@
+
+
+.favicon{
+    width: 32px; /* Adjust the size as needed */
+    height: 32px; /* Adjust the size as needed */
+    border-radius: 50%;
+}
+
+
+
+
+*{
+    background-color: #dad7cd;
+    margin: 0;
+    padding: 0;
+}
+
+.brand h3{
+    background-color: #b2d2c2;
+    font-size: 16pt;
+    padding-bottom: 10px;
+}
+h1{
+    color:#344e41;
+     
+     font-family: "Bowlby One", sans-serif;
+     font-weight: 700;
+     font-size: 60px;
+     font-style:normal;
+     background-color: #b2d2c2;
+}
+.head{
+    background-color: #b2d2c2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 10px;
+}
+#brand,{
+    text-align: center;
+
+}
+
+.row div{
+    background-color: #b2d2c2;
+    
+}
+
+.col input,.col button{
+    background-color: #dfede6;
+    margin-top: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+.col button{
+    width:100px;
+    height:30px;
+}
+.col input{
+    width:300px;
+}
+.col button:hover{
+    background-color: #344e41;
+    color: #b2d2c2;
+}
+/* banner */
+.banner{   
+   background-image: url(./ban.jpg);
+   width:100%;
+   height:400px;
+   background-size:cover;
+}
+/* menu */
+table, td {
+    border: 1px solid #b2d2c2;
+    border-collapse: collapse;   
+}
+
+table{
+    width:100%;
+}
+td {
+    padding: 10px; /* Adds padding inside table cells */
+    text-align: center; /* Aligns text to the left */
+    text-transform: capitalize;
+    font-size: 16pt !important;
+}
+td{
+    background-color: #344e41;
+    color:#b2d2c2
+
+}
+td:hover{
+    background-color: #b2d2c2;
+    color:#446A4B;
+}
+
+
+h2{
+    margin-left: 700px;
+}
+
+
+
+
+/* sofa */
+
+.sofa img{
+    height: 380px;
+    width:400px
+    
+}
+.sofa img:hover{
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.5); ;
+}
+/* fab */
+
+.fab{
+    /* width: 830.400; */
+    height:400px;
+    background-color: #dad7cd;
+    display:flex;
+    margin:10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sofa{
+    padding-top: 20px;
+    margin:10px;
+    width:500px;
+    height:520px;
+    background-color: #A3B18A;
+}
+.bod p,h4,.rs,button{
+    background-color: #A3B18A;
+}
+.sofa{
+    text-align: center;
+}
+.bod button{
+    height:40px;
+    width:400px;
+    border-radius: 10pc;
+    font-size: 15px;
+    margin: 10px;
+    background-color: #DEE3D5;
+}
+.bod button:hover{
+    background-color:#344e41 ;
+    color: #A3B18A;
+}
+.fab2{
+    margin-top: 200px;
+}
+
+footer{
+    height:400px;
+    width: 100%;
+    margin-top: 200px;
+    background-color: #3A5A40;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    
+}
+footer p, footer h3,footer img{
+    background-color:#3A5A40 ;
+    color: #dad7cd;
+    text-align: center;
+}
+footer img{
+    height: 30px;
+    width: 30px;
+}
